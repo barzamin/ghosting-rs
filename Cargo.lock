@@ -458,6 +458,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "demview"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "env_logger",
+ "ghosting",
+ "kiss3d",
+ "log",
+]
+
+[[package]]
 name = "derivative"
 version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -618,11 +630,7 @@ dependencies = [
 name = "ghosting"
 version = "0.1.0"
 dependencies = [
- "anyhow",
  "byteorder",
- "clap",
- "env_logger",
- "kiss3d",
  "log",
 ]
 
